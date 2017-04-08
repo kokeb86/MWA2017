@@ -1,0 +1,10 @@
+var buf= new Buffer  ('Hello');
+console.log(buf);
+console.log(buf[2]);
+console.log(buf.toString());
+console.log(buf.toJSON());
+buf.write("ko");
+console.log(buf.toString());
+var buf1= new Buffer  ('This is how to slice the gadem buffer');
+var slice= buf1.slice(11,20);
+console.log(slice.toString());
